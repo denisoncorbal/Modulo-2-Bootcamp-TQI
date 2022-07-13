@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 
 body {
     margin: 0;
@@ -78,7 +78,7 @@ a:hover {
 .checkbox {
     height: 100px;
     width: 100px;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     display: flex;
@@ -91,7 +91,7 @@ a:hover {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: white;
+    background-color: rgb(109, 109, 109);
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -289,6 +289,20 @@ a:hover {
     visibility: visible;
     font-size: 14px;
 }
+
+/* SKILL BAR*/
+.skills {
+  text-align: right; 
+  padding-top: 5px; 
+  padding-bottom: 5px;
+  color: white;
+  background-color: #893168;
+}
+
+.html {width: 70%}
+.css {width: 60%}
+.js {width: 50%}
+.java {width: 80%}
 
 /* FOOTER */
 
